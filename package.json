@@ -1,0 +1,41 @@
+{
+  "name": "chrome-extension-store-rank-scraper",
+  "version": "0.0.1",
+  "description": "command line npm package returns rank of given package for given search text",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "nodemon index.js",
+    "install": "nodemon --exec \"npm i -g \""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OmkarBhede/chrome-extension-store-rank-scraper.git"
+  },
+  "bin": {
+    "crx-rank": "./index.js"
+  },
+  "keywords": [
+    "chrome",
+    "extension",
+    "store",
+    "rank",
+    "scraper",
+    "chrome",
+    "extension",
+    "analytics"
+  ],
+  "author": "omkarbhede@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OmkarBhede/chrome-extension-store-rank-scraper/issues"
+  },
+  "homepage": "https://github.com/OmkarBhede/chrome-extension-store-rank-scraper#readme",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.1.0",
+    "inquirer": "^10.1.8",
+    "nodemon": "^3.1.4",
+    "puppeteer": "^23.1.1"
+  }
+}
